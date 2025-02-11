@@ -29,5 +29,5 @@ jobs:
         
         - name: build docker image
           run: |
-            docker build -t angelahbenigno/bspd-html-app:latest
+            docker build -t angelahbenigno/bspd-html-app:latest .
             docker push angelahbenigno/bspd-html-app:latest
