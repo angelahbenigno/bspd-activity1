@@ -19,7 +19,7 @@ jobs:
 
         - name: install nginx
           run: |
-            apt-get install nginx
+            sudo apt-get install nginx
 
         - name: login to docker hub
           uses: docker/login-action@v2
